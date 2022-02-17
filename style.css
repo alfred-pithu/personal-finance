@@ -1,0 +1,23 @@
+header h1{
+    font-size:3rem;
+    color: #27a35d;
+}
+
+h6{
+    font-weight: 500;
+    font-size: medium;
+}
+h5{
+    font-weight: 700;
+    font-size: medium;
+}
+
+#calculation-area{
+    background-color: #f8f4f4c2;
+    border-radius: 5px;
+}
+
+input{
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    border-radius: 5px;
+}

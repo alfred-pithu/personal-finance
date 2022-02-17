@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+
+    <!-- Bootstrap CDN CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="container-fluid">
+
+    <header class=" pt-2 pb-3">
+        <h1 class="text-center">Personal Finance</h1>
+    </header>
+
+    <main class="">
+        <section class="row  d-flex justify-content-center">
+
+            <div class="col-lg-6 col-12 d-flex justify-content-center ">
+                <img class="img-fluid h-75 " src="./resized png.png" alt="">
+            </div>
+
+            <div id="calculation-area" class="col-lg-3 col-12  ">
+                <h5 class="text-center my-3 ">Income</h5>
+                <p>
+                <div class="text-center">
+                    <h6 class="d-inline ms-4">Income</h6>: <input id="income-input" type="text" class="  d-inline w-50">
+                </div>
+                </p>
+
+                <h5 class="text-center pt-2">Expenses</h5>
+
+                <p>
+                <div class="text-center">
+                    <h6 class="d-inline">Food</h6>: <input id="food-input" type="text" class=" d-inline w-50 ms-5">
+                </div>
+                </p>
+
+                <p>
+                <div class="text-center">
+                    <h6 class="d-inline ">Rent</h6>: <input id="rent-input" type="text" class=" d-inline w-50 ms-5">
+                </div>
+                </p>
+
+                <p>
+                <div class="text-center">
+                    <h6 class="d-inline ">Clothes</h6>: <input id="clothes-input" type="text"
+                        class=" d-inline ms-4 w-50">
+                </div>
+                </p>
+
+                <button id="calculate-btn" class=" d-block px-5
+                 mx-auto btn btn-primary  ">Calculate</button>
+
+                <br>
+
+                <h5 class="text-center">Total Expenses : <span id="total-expenses-span"></span></h5>
+                <h5 class="text-center">Balance : <span id="balance-span"></span></h5>
+
+                <p class="">
+                <div class="text-center">
+                    <h6 class="d-inline">Save :</h6> <input type="text" id="save-input" class=" d-inline w-25 ms-2">
+                    <span class="mx-2 fw-bolder"> % </span>
+                    <button id="save-btn" class="btn btn-primary">Save</button>
+                </div>
+                </p>
+
+                <h5 class="text-center">Saving Amount : <span id="saving-amount-span"></span></h5>
+                <h5 class="text-center">Remaining Balance : <span id="remaining-balance-span"></span></h5>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Bootstrap CDN BUNDLE -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <!-- EXTERNAL JS FILE -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
